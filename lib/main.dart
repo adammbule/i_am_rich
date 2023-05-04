@@ -7,5 +7,5 @@ void main() {
         child: Text('Hello World. This is Adam Mbule. Happy to be here!!!'),
       ),
     ),
-  );
+  ); //dartfmt did the indentation by adding commas after every widget bracket.
 }
