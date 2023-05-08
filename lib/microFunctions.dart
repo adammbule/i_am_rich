@@ -26,3 +26,4 @@ void details2 ([String firstname='Adam', String lastname='Barasa']){}
 
 /* Getters and setters Setters are used to set the data of fieldName class to a certain value while
 getters are used to fetch the fieldName class value.*/ 
+

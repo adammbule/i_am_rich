@@ -23,3 +23,13 @@ void sumVariable(){
 
   print(sumOfvariables);
 }
+
+void listMyitems(){
+  //list of cars
+  List cars = ["AUDI", "VW", "LANDROVER", "BMW"];
+
+  //iteration with anonymous function as parameter
+  cars.forEach((item) { 
+      print(item);
+  });
+}
