@@ -4,16 +4,19 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.blueGrey[900],
       appBar: AppBar(
         // ignore: prefer_const_constructors
         title: Text('I AM RICH'),
         backgroundColor: Colors.blueGrey[900], //set the appbar background to red
       ),
-      body: Image(
-              // ignore: prefer_const_constructors
-        image: AssetImage('C:\Users\abarasa\Pictures\soa.png'),
-      ),),
+      body: Center(
+        child: Image(
+                // ignore: prefer_const_constructors
+          image: AssetImage('C:\Users\abarasa\Pictures\soa.png'),
+        ),
+      ),
+      ),
     )
   ); //dartfmt did the indentation by adding commas after every widget bracket.
 }
