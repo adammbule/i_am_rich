@@ -47,3 +47,11 @@ void main(){
   int subtractTwo = mangos - oranges;
   print('We have a deficit of $subtractTwo fruits');
 }
+
+//--multiplyTwo
+void main(){
+  int days = 30;
+  int payPerday = 500;
+  int earnings = days * payPerday;
+  print('Your pay for this month is Ksh $earnings');
+}
