@@ -63,3 +63,12 @@ void main(){
   double z = x / y;
   print('The quotient of the two numbers is $z');
 }
+
+//--stringLength
+
+void main() {
+  String longestEnglishword = 'pneumonoultramicroscopicsilicovolcanoconiosis';
+  int stringLength = longestEnglishword.length;
+  print('The longest english word pneumonoultramicroscopicsilicovolcanoconiosis has $stringLength letters.');
+  
+}
