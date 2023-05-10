@@ -55,3 +55,11 @@ void main(){
   int earnings = days * payPerday;
   print('Your pay for this month is Ksh $earnings');
 }
+
+//--divideTwo
+void main(){
+  int x = 20;
+  int y = 3;
+  double z = x / y;
+  print('The quotient of the two numbers is $z');
+}
