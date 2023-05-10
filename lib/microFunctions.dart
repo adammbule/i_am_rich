@@ -32,4 +32,10 @@ getters are used to fetch the fieldName class value.*/
 /*
 returnType functionName(parameters) => expression;
 */
-
+//Practice --add two numbers
+void main(){
+  int x = 5;
+  int y = 8;
+  int sum = x + y;
+  print('The sum of $x and $y is $sum');
+}
