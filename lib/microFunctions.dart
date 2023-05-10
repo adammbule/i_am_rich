@@ -39,3 +39,11 @@ void main(){
   int sum = x + y;
   print('The sum of $x and $y is $sum');
 }
+
+// --subtractTwo
+void main(){
+  int mangos = 20;
+  int oranges = 14;
+  int subtractTwo = mangos - oranges;
+  print('We have a deficit of $subtractTwo fruits');
+}
