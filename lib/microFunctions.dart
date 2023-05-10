@@ -72,3 +72,11 @@ void main() {
   print('The longest english word pneumonoultramicroscopicsilicovolcanoconiosis has $stringLength letters.');
   
 }
+
+//--firstElement
+
+void main(){
+  List runners = ['Bolt', 'Kipchoge', 'Bekele'];
+  String fastestRunner = runners[0];
+  print('The fastest runner in the world is $fastestRunner');
+}
