@@ -15,3 +15,23 @@ void main(){
   const dogEqualsCat = guess == 'cat';
   print(dogEqualsCat);
 }
+
+/*if(condition){
+  do something...print();
+}*/
+
+void trafficLIght(){
+  var command = "stop";
+  if (trafficLight == 'red'){
+    command = 'stop';
+  }
+  else if (trafficLight == 'amber'){
+    command = 'Slow down';
+  }
+  else if (trafficLight == 'green'){
+    command = 'Go';
+  }
+  else {
+    command = 'Inavlid Color';
+  }
+}
