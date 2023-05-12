@@ -20,18 +20,26 @@ void main(){
   do something...print();
 }*/
 
-void trafficLIght(){
-  var command = "stop";
-  if (trafficLight == 'red'){
-    command = 'stop';
-  }
-  else if (trafficLight == 'amber'){
-    command = 'Slow down';
-  }
-  else if (trafficLight == 'green'){
-    command = 'Go';
-  }
-  else {
-    command = 'Inavlid Color';
-  }
+//traffic light algorithm
+void main(){
+  String trafficLight = 'green';
+
+if (trafficLight == 'red') {
+
+print('Stop');
+
+} else if (trafficLight == 'yellow') {
+
+print('Slow down');
+
+} else if (trafficLight == 'green') {
+
+print('Go Go Go!');
+
+} else {
+
+print ('INVALID COLOR!');
+
+}
+
 }
