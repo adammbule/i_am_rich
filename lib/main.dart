@@ -12,8 +12,7 @@ void main() {
       ),
       body: Center(
         child: Image(
-                // ignore: prefer_const_constructors
-          image: AssetImage('C:\Users\abarasa\Pictures\soa.png'),
+          image: AssetImage('images/diamond.jpg'),
         ),
       ),
       ),
