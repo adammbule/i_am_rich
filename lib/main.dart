@@ -4,7 +4,7 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey[900],
+        backgroundColor: Colors.blueGrey[800],
       appBar: AppBar(
         // ignore: prefer_const_constructors
         title: Text('I AM RICH'),
