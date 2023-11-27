@@ -7,7 +7,7 @@ int height2(int myHeight){
 //Today's Lesson: Types of functions
 //1. Void Functions
 void main(){
-  print('Hello Dart. I am Adam Mbule');
+  print('Hello Dart. I am Adam Mbule Barasa');
 }
 
 //2.Functions with return type
